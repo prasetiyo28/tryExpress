@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/',function(req, resp){
     var response = "Hallo " + req.query.Nama;
-    // req.query.nama (ini untuk ambil dari paramater get) 
+    // req.query.nama (ini untuk ambil dari paramater getc) 
     // resp.end(JSON.stringify(req.query));
     
     resp.end(response);
